@@ -1,0 +1,35 @@
+.container {
+    width: 100%;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lime-card {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.lime {
+    display: flex;
+}
+
+@media only screen and (max-width: 550px) {
+    .lime {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 290px) {
+    .box {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
